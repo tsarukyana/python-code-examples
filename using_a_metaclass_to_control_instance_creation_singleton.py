@@ -1,3 +1,9 @@
+"""
+You want to change the way in which instances are created in order to implement singletons,
+caching, or other similar features.
+"""
+
+
 class Singleton(type):
     def __init__(self, *args, **kwargs):
         self.__instance = None
@@ -15,6 +21,7 @@ class Singleton(type):
 class Spam(metaclass=Singleton):
     def __init__(self):
         print('Creating Spam')
+
 
 """
 >>> a = Spam()
