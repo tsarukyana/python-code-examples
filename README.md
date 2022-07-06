@@ -1,3 +1,3 @@
 # python-code-examples
 
-### There are seaborn codes
+### There are Bokeh codes
