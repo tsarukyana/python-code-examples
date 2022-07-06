@@ -1,3 +1,3 @@
 # python-code-examples
 
-### There are matplotlib codes
+### There are seaborn codes
