@@ -38,3 +38,9 @@ plt.legend()
 
 # Display the plot
 plt.show()
+
+"""
+In the preceding graph, two lines are shown on a single graph. We have used two extra
+parameters – label and color – in the plot() function. The label parameter defines the
+name of the series and color defines the color of the line graph
+"""
